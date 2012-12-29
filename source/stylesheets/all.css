@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+.navbar .brand {
+  padding: 6px 20px 0 18px;
+}
+
+.sidebar-nav .nav-list .icon-chevron-right {
+  float: right;
+  margin-top: 6px;
+  margin-right: -10px;
+  background-image: url(../vendor/bootstrap/img/glyphicons-halflings-white.png);
+  opacity: .95;
+}
+
+.pull-left.add-spacing {
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.pull-right.add-spacing {
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+.spacing-top {
+  margin-top: 20px;
+}
+
+footer {
+  color: #888;
+}
+
+.nav-list > .active > a,
+.nav-list > .active > a:hover {
+  background-color: #df7826;
+  /* #9b29cb; */
+}
+
+.hero-unit {
+  text-align: center;
+  padding: 30px;
+  background-color: #fff;
+}
